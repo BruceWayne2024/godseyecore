@@ -9,50 +9,18 @@ app.use(bodyParser.json());
 
 // List of allowed frontend origins for CORS
 const allowedOrigins = [
-  "https://thaibasiljp.com",
-  "https://sakiinstant.shop",
-  "https://sakiinstant.shop/",
-  "http://sakiinstant.shop",
-  "http://sakiinstant.shop/",
-  "http://thaibasiljp.com",
-  "https://theteamania.shop",
-  "http://theteamania.shop",
-  "https://theteamania.shop/",
-  "http://theteamania.shop/",
-  "http://127.0.0.1:5501",
-  "http://127.0.0.1:5500",
-  "https://halcyoninjp.live",
-  "http://halcyoninjp.live",
-  "https://halcyoninjp.live/",
-  "http://halcyoninjp.live/",
-  "https://hotnihonnews.today",
-  "https://hotnihonnews.today/",
-  "http://hotnihonnews.today",
-  "http://hotnihonnews.today/",
+  "https://nihon.digital",
+  "https://nihon.digital/",
+  "http://nihon.digital",
+  "http://nihon.digital/",
 ];
 
 // List of allowed referrers
 const allowedReferrers = [
-  "https://thaibasiljp.com",
-  "https://sakiinstant.shop",
-  "https://sakiinstant.shop/",
-  "http://sakiinstant.shop",
-  "http://sakiinstant.shop/",
-  "http://thaibasiljp.com",
-  "https://theteamania.shop",
-  "http://theteamania.shop",
-  "https://theteamania.shop/",
-  "http://theteamania.shop/",
-  "http://127.0.0.1:5501",
-  "http://127.0.0.1:5500",
-  "https://halcyoninjp.live",
-  "http://halcyoninjp.live",
-  "https://halcyoninjp.live/",
-  "http://halcyoninjp.live/",
-  "https://hotnihonnews.today",
-  "https://hotnihonnews.today/",
-  "http://hotnihonnews.today",
-  "http://hotnihonnews.today/",
+  "https://nihon.digital",
+  "https://nihon.digital/",
+  "http://nihon.digital",
+  "http://nihon.digital/",
 ];
 
 // CORS configuration
